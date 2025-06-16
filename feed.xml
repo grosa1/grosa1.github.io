@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://grosa1.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://grosa1.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-06-16T13:30:14+00:00</updated><id>https://grosa1.github.io/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">A gentle Introduction to OCI Generative AI services</title><link href="https://grosa1.github.io/blog/2025/introduction-to-oci-generative-ai/" rel="alternate" type="text/html" title="A gentle Introduction to OCI Generative AI services"/><published>2025-03-19T00:00:00+00:00</published><updated>2025-03-19T00:00:00+00:00</updated><id>https://grosa1.github.io/blog/2025/introduction-to-oci-generative-ai</id><content type="html" xml:base="https://grosa1.github.io/blog/2025/introduction-to-oci-generative-ai/"><![CDATA[<div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/cover1-480.webp"/> <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/cover1-800.webp"/> <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/cover1-1400.webp"/> <img src="/assets/img/cover1.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <h2 id="introduction">Introduction</h2> <p>This article aims to provide a comprehensive guide for beginners to get started with Oracle Cloud Infrastructure (OCI) Generative AI service. This article covers everything from creating an account to setting up the environment and running the first AI task using Python, starting with a brief overview of the main features.</p> <p>The Oracle Cloud Infrastructure is one of the big cloud platforms currently available in the market together with AWS, Google Cloud, and Azure. Among the others, OCI offers several AI services, from the GPU infrastructure to AI-based services such as a powerful platform for creating and deploying GenAI-powered apps. OCI Generative AI provides a collection of state-of-the-art Large Language Models (LLMs) specialized for various tasks, including text generation, summarization, and text embeddings. These models can be fine-tuned with custom datasets and deployed on a dedicated AI cluster. Also, content moderation and controls are available to model endpoints. Currently, available models include the Meta Llama series and Cohere’s Command R and R+, accessible through the OCI SDK (supporting Python, Java, and Node.js), OCI CLI, and the Chat Playground. Additionally, the OCI SDK is integrated with popular open-source frameworks like LangChain and LlamaIndex.</p> <h2 id="getting-started-with-oci-generative-ai">Getting started with OCI Generative AI</h2> <p>Before getting hands-on with the code, there are several preliminary steps to follow to set up the required resources on OCI.</p> <p>1. <strong>Creating an Account</strong>: visit the <a href="https://www.oracle.com/it/cloud/sign-in.html">Oracle Cloud website</a> and sign up for an account. You’ll need to provide some basic information and verify your email address. Once your account is created, you can access the OCI Console. A free trial is available for new users, which includes some credits to experiment with the services.</p> <p>2. <strong>Navigating the OCI Console</strong>: The OCI Console is your main interface for managing cloud resources. Familiarize yourself with the dashboard, where you can access various services, monitor usage, and configure settings. Specifically, the playground allows us to experiment with the models hosted on OCI easily. To access the playground, navigate to <em>Generative AI &gt; Playground &gt; Chat</em> and select the model you want to use. An example of the <a href="https://www.oracle.com/cloud/">OCI Generative AI Playground</a> is shown below (Figure 1).</p> <div class="row mt-4 mb-2"> <div class="col-sm mt-3 mb-2 mt-md-4"> <figure> <picture> <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/oci-genai-playground-480.webp"/> <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/oci-genai-playground-800.webp"/> <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/oci-genai-playground-1400.webp"/> <img src="/assets/img/oci-genai-playground.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable="" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture><figcaption class="caption">Figure 1. OCI Generative AI Playground. Source: <a href="https://www.oracle.com/cloud/" target="_blank" rel="noopener noreferrer">Oracle Cloud Infrastructure</a></figcaption> </figure> </div> </div> <p>3. <strong>Generating an API key</strong>: After creating your account, you’ll need to create an API key that is mandatory for authentication with the OCI Generative AI service. To create an API key:</p> <ul> <li>Go to your profile settings, find <em>Resources &gt; API keys</em> and click on the <em>Add Public Key</em> button.</li> <li>Then, check on <em>Generate API key pair</em> and download the private and public key files (<em>e.g.,</em> default <code class="language-plaintext highlighter-rouge">~/.oci</code> directory).</li> <li>When finished, click on the <em>Add</em> button.</li> </ul> <p>The last step is to create a configuration file that contains the necessary information to authenticate with the OCI services. An example of the configuration file is prompted after the API key creation. As suggested, store the configuration file in the default location <code class="language-plaintext highlighter-rouge">~/.oci/config</code>. Be sure to set the correct path of the previously downloaded private key in the configuration file.</p> <p>For example:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">[</span>DEFAULT]
+<span class="nv">user</span><span class="o">=</span>&lt;your-oci-user-ocid&gt;  <span class="c"># TODO</span>
+<span class="nv">fingerprint</span><span class="o">=</span>&lt;your-fingerprint&gt;  <span class="c"># TODO</span>
+<span class="nv">tenancy</span><span class="o">=</span>&lt;your-tenancy-ocid&gt;  <span class="c"># TODO</span>
+<span class="nv">region</span><span class="o">=</span>eu-frankfurt-1  <span class="c"># Frankfurt EU region</span>
+<span class="nv">key_file</span><span class="o">=</span>/home/sammy/.oci/my-private-key.pem  <span class="c"># TODO: Full path to the private key</span>
+</code></pre></div></div> <p>4. <strong>Create a Compartment</strong>: Compartments are logical containers that help you organize and control access to your cloud resources. You can create a new compartment from the OCI Console by navigating to <em>Identity &gt; Compartments</em> and clicking on <em>Create Compartment</em>.</p> <h2 id="setting-up-the-environment">Setting up the environment</h2> <p>Before running your first AI task, you need to set up the environment by installing the necessary libraries and dependencies. The requirement is to have <a href="https://www.python.org/downloads/">Python</a> installed on your machine, since in this article we use Python to interact with the OCI Generative AI service.</p> <p>Next, you must set up a virtual environment to manage the dependencies of your project. You can use <code class="language-plaintext highlighter-rouge">venv</code> or <code class="language-plaintext highlighter-rouge">conda</code> to create a virtual environment. Here’s how to create a virtual environment using <code class="language-plaintext highlighter-rouge">conda</code>:</p> <p>1. Install <code class="language-plaintext highlighter-rouge">miniconda</code> by following the instructions <a href="https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions">here</a>.</p> <p>2. Create and activate a new conda environment:</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda create <span class="nt">--name</span> oci-genai <span class="nv">python</span><span class="o">=</span>3.11
+conda activate oci-genai
+</code></pre></div></div> <p>3. Install the <a href="https://github.com/oracle/oci-python-sdk"><code class="language-plaintext highlighter-rouge">oci-python-sdk</code></a> library using <code class="language-plaintext highlighter-rouge">pip</code> :</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>oci
+</code></pre></div></div> <h2 id="running-the-first-ai-task">Running the first AI task</h2> <p>Now that the setup is complete, we can run our first task using the OCI Generative AI service. In the following examples, we use the <code class="language-plaintext highlighter-rouge">oci-python-sdk</code> library to interact with the model inference endpoints.</p> <p>An interesting feature of OCI Generative AI that we will cover is the <code class="language-plaintext highlighter-rouge">seed</code> parameter, recently introduced in the API, which forces the model backend to generate deterministic responses from the model for the same input. However, it is not fully guaranteed but can be useful for debugging and testing purposes.</p> <p>Create a new Python script called <code class="language-plaintext highlighter-rouge">main.py</code> and use the snippets below to run your first AI task. To execute, run <code class="language-plaintext highlighter-rouge">python main.py</code> in your terminal after activating the virtual environment.</p> <h3 id="1-setup-the-authentication-and-oci-generative-ai-client">1. Setup the authentication and OCI Generative AI client</h3> <p>The authentication is handled by the OCI SDK, which reads the configuration file from the default location <code class="language-plaintext highlighter-rouge">~/.oci/config</code>:</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="n">oci</span>
+<span class="kn">from</span> <span class="n">oci.generative_ai_inference</span> <span class="kn">import</span> <span class="n">GenerativeAiInferenceClient</span>
+<span class="kn">from</span> <span class="n">oci.retry</span> <span class="kn">import</span> <span class="n">NoneRetryStrategy</span>
+
+<span class="c1"># Read DEFAULT profile from OCI config
+</span><span class="n">config</span> <span class="o">=</span> <span class="n">oci</span><span class="p">.</span><span class="n">config</span><span class="p">.</span><span class="nf">from_file</span><span class="p">(</span><span class="sh">"</span><span class="s">~/.oci/config</span><span class="sh">"</span><span class="p">,</span> <span class="sh">"</span><span class="s">DEFAULT</span><span class="sh">"</span><span class="p">)</span>
+<span class="c1"># Validate the config file
+</span><span class="n">oci</span><span class="p">.</span><span class="n">config</span><span class="p">.</span><span class="nf">validate_config</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>
+
+<span class="c1"># OCI configuration
+</span><span class="n">OCI_COMPARTMENT_ID</span> <span class="o">=</span> <span class="sh">"</span><span class="s">your.oci.compartment.ocid</span><span class="sh">"</span>  <span class="c1"># TODO: Set your compartment OCID
+</span><span class="n">OCI_INFERENCE_ENDPOINT</span> <span class="o">=</span> <span class="sh">"</span><span class="s">https://inference.generativeai.eu-frankfurt-1.oci.oraclecloud.com</span><span class="sh">"</span>  <span class="c1"># EU Frankfurt region
+</span><span class="n">SEED</span> <span class="o">=</span> <span class="mi">123</span>  <span class="c1"># Seed parameter for the current chat session
+</span>
+<span class="c1"># Create the Inference client
+</span><span class="n">genai_client</span> <span class="o">=</span> <span class="nc">GenerativeAiInferenceClient</span><span class="p">(</span>
+    <span class="n">config</span><span class="o">=</span><span class="n">config</span><span class="p">,</span> 
+    <span class="n">service_endpoint</span><span class="o">=</span><span class="n">OCI_INFERENCE_ENDPOINT</span><span class="p">,</span> 
+    <span class="n">retry_strategy</span><span class="o">=</span><span class="nc">NoneRetryStrategy</span><span class="p">(),</span>  <span class="c1"># Set a retry strategy
+</span>    <span class="n">timeout</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">240</span><span class="p">)</span>  <span class="c1"># Connect and read timeout
+</span><span class="p">)</span>
+</code></pre></div></div> <h3 id="2-example-for-meta-llama-models-hosted-on-oci">2. Example for Meta Llama models hosted on OCI</h3> <p>The OCI SDK provides two distinct implementations for the available chat models, one for the Llama models and one for the Cohere models. The complete list of available models can be found in the <a href="https://docs.oracle.com/en-us/iaas/Content/generative-ai/pretrained-models.htm">OCI Generative AI documentation</a>. The Llama models are implemented using the <code class="language-plaintext highlighter-rouge">GenericChatRequest</code> and the following example demonstrates how to use them.</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">oci.generative_ai_inference.models</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">ChatDetails</span><span class="p">,</span> 
+    <span class="n">GenericChatRequest</span><span class="p">,</span> 
+    <span class="n">SystemMessage</span><span class="p">,</span> 
+    <span class="n">AssistantMessage</span><span class="p">,</span> 
+    <span class="n">UserMessage</span><span class="p">,</span> 
+    <span class="n">TextContent</span><span class="p">,</span> 
+    <span class="n">OnDemandServingMode</span>
+<span class="p">)</span>
+
+<span class="c1"># Specify the OCI model ID
+</span><span class="n">OCI_MODEL_ID</span> <span class="o">=</span> <span class="sh">"</span><span class="s">meta.llama-3.3-70b-instruct</span><span class="sh">"</span>
+
+<span class="c1"># Define the chat conversation
+# The conversation starts with the system message and then the user message
+# Supported roles: SYSTEM, USER, ASSISTANT
+</span><span class="n">messages</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="nc">SystemMessage</span><span class="p">(</span><span class="n">content</span><span class="o">=</span><span class="p">[</span><span class="nc">TextContent</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="sh">"</span><span class="s">Sei un menestrello del medioevo che racconta storie ai viaggiatori</span><span class="sh">"</span><span class="p">)]),</span>
+    <span class="nc">UserMessage</span><span class="p">(</span><span class="n">content</span><span class="o">=</span><span class="p">[</span><span class="nc">TextContent</span><span class="p">(</span><span class="n">text</span><span class="o">=</span><span class="sh">"</span><span class="s">Raccontami una breve storia</span><span class="sh">"</span><span class="p">)])</span>
+    <span class="c1"># Add more chat history if needed
+</span>    <span class="c1"># AssistantMessage(content=[TextContent(text="C'era una volta...")]),
+</span>    <span class="c1"># UserMessage(content=[TextContent(text="E poi?")]),
+</span><span class="p">]</span>
+
+<span class="c1"># Compose the chat request
+</span><span class="n">chat_request</span> <span class="o">=</span> <span class="nc">GenericChatRequest</span><span class="p">(</span>
+    <span class="n">seed</span><span class="o">=</span><span class="n">SEED</span><span class="p">,</span>  <span class="c1"># Forces the model to generate a deterministic response, but not fully guaranteed
+</span>    <span class="n">api_format</span><span class="o">=</span><span class="sh">"</span><span class="s">GENERIC</span><span class="sh">"</span><span class="p">,</span>
+    <span class="n">messages</span><span class="o">=</span><span class="n">messages</span><span class="p">,</span>
+    <span class="n">max_tokens</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>  <span class="c1"># Limit response length
+</span>    <span class="n">temperature</span><span class="o">=</span><span class="mf">0.7</span>  <span class="c1"># Controls the creativity of the model. Lower values mean less creative
+</span><span class="p">)</span>
+
+<span class="c1"># Compose the chat request details
+</span><span class="n">chat_detail</span> <span class="o">=</span> <span class="nc">ChatDetails</span><span class="p">(</span>
+    <span class="n">serving_mode</span><span class="o">=</span><span class="nc">OnDemandServingMode</span><span class="p">(</span><span class="n">model_id</span><span class="o">=</span><span class="n">OCI_MODEL_ID</span><span class="p">),</span>
+    <span class="n">chat_request</span><span class="o">=</span><span class="n">chat_request</span><span class="p">,</span>
+    <span class="n">compartment_id</span><span class="o">=</span><span class="n">OCI_COMPARTMENT_ID</span>
+<span class="p">)</span>
+
+<span class="n">chat_response</span> <span class="o">=</span> <span class="n">genai_client</span><span class="p">.</span><span class="nf">chat</span><span class="p">(</span><span class="n">chat_detail</span><span class="p">)</span>
+
+<span class="c1"># Print result
+</span><span class="n">response_text</span> <span class="o">=</span> <span class="n">chat_response</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="n">chat_response</span><span class="p">.</span><span class="n">choices</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">message</span><span class="p">.</span><span class="n">content</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">text</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">************************** Chat Result **************************</span><span class="se">\n</span><span class="sh">"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">response_text</span><span class="p">)</span>
+</code></pre></div></div> <p>An output of the above code snippet is the following:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>************************** Chat Result **************************
+
+ **La Leggenda del Cavaliere della Luna**
+
+Oh, ascoltate, viaggiatori, e lasciate che le mie parole vi trasportino in un'epoca di antica magia e valorosi cavalieri. La storia che sto per raccontarvi è quella di un cavaliere coraggioso, noto come il Cavaliere della Luna.
+
+In una terra lontana, dove le stelle brillavano con intensità e la luna piena illuminava le notti, viveva un cavaliere di nome Sir Edward. Era un guerriero leale e onesto, amato dal suo popolo e rispettato dai suoi pari. Sir Edward possedeva un dono unico: poteva comunicare con gli animali della foresta, e in particolare con un grande cavallo bianco, noto come Alba.
+
+Una notte, mentre la luna era alta nel cielo, Sir Edward ricevette una visione misteriosa. Una voce gli sussurrò all'orecchio di recarsi al castello abbandonato di Malakai, dove una principessa era stata imprigionata da un dragone crudele. Il cavaliere, senza esitare, sellò Alba e partì verso il castello.
+
+Durante il viaggio, incontrarono molte difficoltà e pericoli, ma Sir Edward e Alba superarono ogni ostacolo con coraggio e astuzia. Quando finalmente raggiunsero il castello, trovarono la principessa imprigionata in una torre alta e il dragone che la sorvegliava.
+
+Sir Edward, con la sua spada in mano, sfidò il dragone e lo sconfisse in un duello epico. La principessa fu liberata e ringraziò il cavaliere per il suo coraggio. Da quel giorno, Sir Edward divenne noto come il Cavaliere della Luna, e la sua leggenda si diffuse in tutta la terra.
+
+E così, viaggiatori, la storia del Cavaliere della Luna ci ricorda che il coraggio e la lealtà possono superare anche gli ostacoli più grandi, e che la magia della luna può guidarci verso la vittoria e la gloria.
+
+**Fine della storia**
+
+Spero che vi sia piaciuta, viaggiatori! Se desiderate ascoltare altre storie, sono qui per raccontarvele.
+</code></pre></div></div> <h3 id="3-example-for-cohere-oci-models-hosted-on-oci">3. Example for Cohere OCI models hosted on OCI</h3> <p>On the other hand, the Cohere models are implemented using the <code class="language-plaintext highlighter-rouge">CohereChatRequest</code> and <code class="language-plaintext highlighter-rouge">CohereSystemMessage</code> classes. The following example demonstrates how to use the Cohere models from Cohere hosted on OCI.</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">oci.generative_ai_inference.models</span> <span class="kn">import</span> <span class="p">(</span>
+    <span class="n">ChatDetails</span><span class="p">,</span> 
+    <span class="n">CohereChatRequest</span><span class="p">,</span> 
+    <span class="n">CohereSystemMessage</span><span class="p">,</span> 
+    <span class="n">OnDemandServingMode</span>
+<span class="p">)</span>
+
+<span class="c1"># Specify the OCI model ID
+</span><span class="n">OCI_MODEL_ID</span> <span class="o">=</span> <span class="sh">"</span><span class="s">cohere.command-r-08-2024</span><span class="sh">"</span>  <span class="c1"># or cohere.command-r-plus-08-2024
+</span>
+<span class="c1"># Add chat history
+</span><span class="n">chat_history</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="nc">CohereSystemMessage</span><span class="p">(</span><span class="n">message</span><span class="o">=</span><span class="sh">"</span><span class="s">Sei un menestrello del medioevo che racconta storie ai viaggiatori</span><span class="sh">"</span><span class="p">)</span>
+    <span class="c1"># Add more chat history if needed
+</span>    <span class="c1"># CohereUserMessage(message="Raccontami una breve storia")
+</span>    <span class="c1"># CohereChatBotMessage(message="C'era una volta...")
+</span><span class="p">]</span>
+<span class="c1"># Define the input message
+</span><span class="n">user_message</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Raccontami una breve storia</span><span class="sh">"</span>
+
+<span class="c1"># Compose the chat request
+</span><span class="n">chat_request</span> <span class="o">=</span> <span class="nc">CohereChatRequest</span><span class="p">(</span>
+    <span class="n">seed</span><span class="o">=</span><span class="n">SEED</span><span class="p">,</span>  <span class="c1"># Forces the model to generate a deterministic response, but not fully guaranteed
+</span>    <span class="n">chat_history</span><span class="o">=</span><span class="n">chat_history</span><span class="p">,</span>
+    <span class="n">message</span><span class="o">=</span><span class="n">user_message</span><span class="p">,</span>
+    <span class="n">max_tokens</span><span class="o">=</span><span class="mi">1000</span><span class="p">,</span>  <span class="c1"># Limit response length
+</span>    <span class="n">temperature</span><span class="o">=</span><span class="mf">0.7</span>  <span class="c1"># Controls the creativity of the model. Lower values mean less creative
+</span><span class="p">)</span>
+
+<span class="c1"># Compose the chat request details
+</span><span class="n">chat_detail</span> <span class="o">=</span> <span class="nc">ChatDetails</span><span class="p">(</span>
+    <span class="n">serving_mode</span><span class="o">=</span><span class="nc">OnDemandServingMode</span><span class="p">(</span><span class="n">model_id</span><span class="o">=</span><span class="n">OCI_MODEL_ID</span><span class="p">),</span>
+    <span class="n">chat_request</span><span class="o">=</span><span class="n">chat_request</span><span class="p">,</span>
+    <span class="n">compartment_id</span><span class="o">=</span><span class="n">OCI_COMPARTMENT_ID</span>
+<span class="p">)</span>
+
+<span class="n">chat_response</span> <span class="o">=</span> <span class="n">genai_client</span><span class="p">.</span><span class="nf">chat</span><span class="p">(</span><span class="n">chat_detail</span><span class="p">)</span>
+
+<span class="c1"># Print result
+</span><span class="n">response_text</span> <span class="o">=</span> <span class="n">chat_response</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="n">chat_response</span><span class="p">.</span><span class="n">chat_history</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">].</span><span class="n">message</span>
+
+<span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">************************** Chat Result **************************</span><span class="se">\n</span><span class="sh">"</span><span class="p">)</span>
+<span class="nf">print</span><span class="p">(</span><span class="n">response_text</span><span class="p">)</span>
+</code></pre></div></div> <p>An output of the above code snippet is the following:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>************************** Chat Result **************************
+
+Incamminatevi, o viandanti, e prestate orecchio a questa storia che vi narrerò. Era una fredda notte d'inverno, quando un valoroso cavaliere, di nome Corvo, si trovò ad affrontare una terribile tempesta di neve. Il vento ululava e la visibilità era quasi nulla, ma il nostro eroe non si lasciò scoraggiare.
+
+Corvo, con il suo fedele destriero, cavalcava senza sosta, cercando rifugio in quel gelido paesaggio. Ad un tratto, scorse una luce tremolante in lontananza, come un barlume di speranza. Si diresse verso quella direzione, guidando il suo cavallo attraverso la bufera.
+
+Arrivato a destinazione, trovò un'antica locanda, avvolta dal mistero. La porta si aprì con un cigolio, rivelando un caldo focolare e un'accogliente atmosfera. Il locandiere, un uomo saggio e burbero, offrì a Corvo un pasto caldo e un riparo per la notte.
+
+Mentre il cavaliere riposava, sognò di un'avventura che lo attendeva. Una misteriosa principessa era stata rapita da un drago malvagio, e solo lui poteva salvarla. Armato di coraggio e della sua fidata spada, Corvo si preparò ad affrontare il mostro.
+
+Il giorno seguente, il nostro eroe partì alla ricerca del drago. Attraversò foreste oscure e montagne impervie, affrontando pericoli e insidie. Finalmente, raggiunse la tana del drago, un luogo tenebroso e pieno di tesori rubati.
+
+Con un'ultima carica coraggiosa, Corvo affrontò il drago in un duello epico. La sua spada scintillava sotto i raggi del sole, mentre il drago sputava fuoco e terrore. Ma la determinazione del cavaliere ebbe la meglio, e alla fine riuscì a sconfiggere la creatura.
+
+Liberando la principessa, Corvo divenne un eroe leggendario. La sua storia si diffuse in tutto il regno, e il suo nome fu cantato dai menestrelli per generazioni. E così, o cari viandanti, vi lascio con questa avventura, ricordandovi che il coraggio e la determinazione possono superare qualsiasi tempesta.
+
+E ora, vi lascio con una canzone che celebra le gesta di Corvo, il cavaliere coraggioso!
+</code></pre></div></div> <h2 id="conclusion">Conclusion</h2> <p>This article provided an overview of OCI Generative AI, including a step-by-step guide to getting started with the service, setting up an environment, and running your first AI task using the OCI Python SDK using the models from Llama and Cohere hosted on OCI. For more information, refer to the <a href="https://docs.oracle.com/en-us/iaas/Content/generative-ai/overview.htm">OCI Generative AI documentation</a>.</p> <p><em>*Please note all screenshots are the property of Oracle and are used according to their Copyright Guidelines.</em></p>]]></content><author><name></name></author><category term="oracle-generative-ai"/><category term="coding"/><category term="oracle"/><category term="generative-ai"/><category term="oci"/><category term="python"/><summary type="html"><![CDATA[A guide for beginners to get started with Oracle Cloud Infrastructure (OCI) Generative AI service.]]></summary></entry></feed>
