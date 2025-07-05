@@ -16,9 +16,7 @@ author_profile: true
 <style>
 /* General styling for the page body to improve typography */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
   padding: 2em;
 }
 
