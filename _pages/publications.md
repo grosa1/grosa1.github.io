@@ -36,25 +36,25 @@ author_profile: true
 
 ## 2025
 
-* J12. **Mining and Measuring the Impact of Change Patterns for Improving the Size and Build Time of Docker Images**
+* J11. **Mining and Measuring the Impact of Change Patterns for Improving the Size and Build Time of Docker Images**
 <u>Giovanni Rosa</u>, Emanuela Guglielmi, Mattia Iannone, Simone Scalabrino, and Rocco Oliveto  
 _Empirical Software Engineering - EMSE_ 2025 (To Appear)  
 \[[PDF](/files/EMSE2025MiningAndMeasuring.pdf)\]
 
-* J11. **Why and how developers maintain smart contracts**  
+* J10. **Why and how developers maintain smart contracts**  
 <u>Giovanni Rosa</u>, Simone Scalabrino, Stefano Mastrostefano, and Rocco Oliveto  
 _Empirical Software Engineering - EMSE_ 2025  
 \[[PDF](https://link.springer.com/article/10.1007/s10664-025-10639-9)\]
 
 ## 2024
 
-* J10. **Fixing Dockerfile Smells: An Empirical Study**  
+* J9. **Fixing Dockerfile Smells: An Empirical Study**  
 <u>Giovanni Rosa</u>, Federico Zappone, Simone Scalabrino, and Rocco Oliveto  
 _Empirical Software Engineering - EMSE_ 2024  
 \[[PDF](https://link.springer.com/article/10.1007/s10664-024-10471-7}) \| 
 [Slides](/files/talkICSME22fixingdockerfilesmell.pdf})\]
 
-* J9. **Help Them Understand: Testing and Improving Voice User Interfaces**  
+* J8. **Help Them Understand: Testing and Improving Voice User Interfaces**  
 Emanuela Guglielmi, <u>Giovanni Rosa</u>, Simone Scalabrino, Gabriele Bavota, and Rocco Oliveto  
 _ACM Transactions on Software Engineering and Methodology_ 2024  
 \[[PDF](/files/guglielmi2024helpthem.pdf)\]
@@ -67,18 +67,18 @@ _MSR_ 2024
 
 ## 2023
 
-* J8. **ST-Segment Anomalies Detection from Compressed Sensing Based ECG Data by Means of Machine Learning**  
+* J7. **ST-Segment Anomalies Detection from Compressed Sensing Based ECG Data by Means of Machine Learning**  
 <u>Giovanni Rosa</u>, Marco Russodivito, Gennaro Laudato, Angela Rita Colavita, Luca De Vito, Francesco Picariello, Simone Scalabrino, Ioan Tudosa, and Rocco Oliveto  
 _Biomedical Engineering Systems and Technologies_ 2023  
 \[[PDF](/files/rosa2023stanomalies2.pdf)\]
 
-* J7. **A Comprehensive Evaluation of SZZ Variants Through a Developer-informed Oracle**  
+* J6. **A Comprehensive Evaluation of SZZ Variants Through a Developer-informed Oracle**  
 <u>Giovanni Rosa</u>, Luca Pascarella, Simone Scalabrino, Rosalia Tufano, Gabriele Bavota, Michele Lanza, and Rocco Oliveto  
 _JSS_ 2023  
 \[[PDF]([/files/EMSE2025MiningAndMeasuring.pdf](https://www.sciencedirect.com/science/article/pii/S0164121223001243/pdfft)) \| 
 [Code](https://doi.org/10.6084/m9.figshare.19586500)\]
 
-* J6. **What Quality Aspects Influence the Adoption of Docker Images?**  
+* J5. **What Quality Aspects Influence the Adoption of Docker Images?**  
 <u>Giovanni Rosa</u>, Simone Scalabrino, Gabriele Bavota, and Rocco Oliveto  
 _TOSEM_ 2023  
 \[[PDF](/files/rosa2023qualityaspects.pdf) \| 
@@ -94,12 +94,12 @@ _IEEE ICSSP_ 2023
 
 ## 2022
 
-* J5. **Multi-class Detection of Arrhythmia Conditions Through the Combination of Compressed Sensing and Machine Learning**  
+* J4. **Multi-class Detection of Arrhythmia Conditions Through the Combination of Compressed Sensing and Machine Learning**  
 <u>Giovanni Rosa</u>, Marco Russodivito, Gennaro Laudato, Angela Rita Colavita, Luca De Vito, Francesco Picariello, Simone Scalabrino, Ioan Tudosa, and Rocco Oliveto  
 _Biomedical Engineering Systems and Technologies_ 2022  
 \[[PDF](/files/rosa2022arrhythmiadetection2.pdf)\]
 
-* J4. **Detecting Functional and Security-Related Issues in Smart Contracts: A Systematic Literature Review**  
+* J3. **Detecting Functional and Security-Related Issues in Smart Contracts: A Systematic Literature Review**  
 Valentina Piantadosi, <u>Giovanni Rosa</u>, Davide Placella, Simone Scalabrino, and Rocco Oliveto  
 _Software: Practice and Experience_ 2022  
 \[[PDF](/files/piantadosi2022detecting.pdf)\]
@@ -137,7 +137,7 @@ _HEALTHINF_ 2022
 
 ## 2021
 
-* J3. **Tether: A Study on Bubble-Networks**  
+* J2. **Tether: A Study on Bubble-Networks**  
 <u>Giovanni Rosa</u>, and Remo Pareschi  
 _Frontiers Blockchain_ 2021  
 \[[PDF](https://doi.org/10.3389/fbloc.2021.686484) \| 
@@ -164,7 +164,7 @@ _MedInfo_ 2021
 
 ## 2020
 
-* J2. **Combining Rhythmic and Morphological ECG Features for Automatic Detection of Atrial Fibrillation: Local and Global Prediction Models**  
+* J1. **Combining Rhythmic and Morphological ECG Features for Automatic Detection of Atrial Fibrillation: Local and Global Prediction Models**  
 Gennaro Laudato, Franco Boldi, Angela Rita Colavita, <u>Giovanni Rosa</u>, Simone Scalabrino, Aldo Lazich, and Rocco Oliveto  
 _Biomedical Engineering Systems and Technologies_ 2020  
 \[[PDF](/files/laudato2020combining.pdf)\]
