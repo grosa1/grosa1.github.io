@@ -52,7 +52,7 @@ _Empirical Software Engineering - EMSE_ 2025
 <u>Giovanni Rosa</u>, Federico Zappone, Simone Scalabrino, and Rocco Oliveto  
 _Empirical Software Engineering - EMSE_ 2024  
 \[[PDF](https://link.springer.com/article/10.1007/s10664-024-10471-7}) \| 
-[Slides](/files/talkICSME22fixingdockerfilesmell.pdf})\]
+[Slides](/files/talkICSME22fixingdockerfilesmell.pdf)\]
 
 * J8. **Help Them Understand: Testing and Improving Voice User Interfaces**  
 Emanuela Guglielmi, <u>Giovanni Rosa</u>, Simone Scalabrino, Gabriele Bavota, and Rocco Oliveto  
@@ -75,7 +75,7 @@ _Biomedical Engineering Systems and Technologies_ 2023
 * J6. **A Comprehensive Evaluation of SZZ Variants Through a Developer-informed Oracle**  
 <u>Giovanni Rosa</u>, Luca Pascarella, Simone Scalabrino, Rosalia Tufano, Gabriele Bavota, Michele Lanza, and Rocco Oliveto  
 _JSS_ 2023  
-\[[PDF]([/files/EMSE2025MiningAndMeasuring.pdf](https://www.sciencedirect.com/science/article/pii/S0164121223001243/pdfft)) \| 
+\[[PDF](https://www.sciencedirect.com/science/article/pii/S0164121223001243/pdfft) \| 
 [Code](https://doi.org/10.6084/m9.figshare.19586500)\]
 
 * J5. **What Quality Aspects Influence the Adoption of Docker Images?**  
