@@ -19,7 +19,7 @@ function updateNav() {
 
   // The visible list is overflowing the nav
   if ($vlinks.width() > availableSpace) {
-
+    
     while ($vlinks.width() > availableSpace && $vlinks.children("*:not(.persist)").length > 0) {
       // Record the width of the list
       breaks.push($vlinks.width());
@@ -46,14 +46,12 @@ function updateNav() {
       }
       breaks.pop();
     }
-
-// Force hide button if nothing is hidden
-if ($vlinks.width() <= availableSpace && $hlinks.children().length === 0) {
-  $btn.addClass('hidden');
-  $btn.removeClass('close');
-  $hlinks.addClass('hidden');
-}
-
+    // Hide the dropdown btn if hidden list is empty
+    if (breaks.length < 1) {
+      $btn.addClass('hidden');
+      $btn.removeClass('close');
+      $hlinks.addClass('hidden');
+    }
   }
 
   // Keep counter updated
