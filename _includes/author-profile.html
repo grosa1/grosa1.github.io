@@ -65,6 +65,15 @@
       {% if author.scopus %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw icon-pad-right"></i>Scopus</a></li>
       {% endif %}
+      {% if author.dblp %}
+        <li><a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw icon-pad-right"></i>dblp</a></li>
+      {% endif %}
+      {%- if author.slideshare_username -%}
+        <li><a href="https://www.slideshare.net/{{ author.slideshare_username }}"><i class="fab fa-slideshare icon-pad-right" aria-hidden="true"></i>Slideshare</a></li>
+      {% endif %}
+      {% if author.speakerdeck_username %}
+        <li><a href="https://speakerdeck.com/{{ author.speakerdeck_username }}"><i class="fab fa-speaker-deck icon-pad-right" aria-hidden="true"></i>SpeakerDeck</a></li>
+      {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->
       {% if author.bitbucket %}

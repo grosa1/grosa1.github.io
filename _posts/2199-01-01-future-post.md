@@ -1,7 +1,7 @@
 ---
 title: 'Future Blog Post'
 date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+permalink: /posts/2025/introduction-to-oci-generative-ai
 tags:
   - cool posts
   - category1
