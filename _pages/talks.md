@@ -70,22 +70,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
-/* Specific styling for a "slides" link if it's a button */
-a[href*="slides"] {
-  display: inline-block;
-  background-color: #28a745;
-  color: white !important; /* Use !important to override other link styles */
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-weight: 500;
-  transition: background-color 0.2s ease-in-out;
-}
-
-a[href*="slides"]:hover {
-  background-color: #218838;
-  text-decoration: none;
-}
 </style>
 
 | Date         | Title                                                                          | Event                                                              | Location               | Links                                                                 |
