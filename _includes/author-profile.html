@@ -170,7 +170,11 @@
       {% endif %}
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+      {% endif %}
+
+      {% if author.curriculum_vitae %}
+        <li><a href="{{ author.curriculum_vitae }}"><i class="ai ai-academia ai-cv icon-pad-right" aria-hidden="true"></i>MY CV / Resume</a></li>
+      {% endif %}
     </ul>
   </div>
 </div>

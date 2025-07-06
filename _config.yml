@@ -80,6 +80,8 @@ author:
   youtube          : # Username
   zhihu            : # Username
 
+  curriculum_vitae: 'https://github.com/grosa1/techResume/releases/latest/download/resume.pdf'
+
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
