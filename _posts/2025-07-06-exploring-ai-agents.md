@@ -1,5 +1,5 @@
 ---
-title: 'Exploring AI Agents with OCI Generative AI Agents Platform'
+title: 'Exploring AI Agents with Oracle’s Generative AI Agents Platform'
 date: 2025-07-06
 permalink: /posts/2025/exploring-ai-agents-oci
 tags:

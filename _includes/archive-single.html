@@ -83,14 +83,20 @@
   </article>
 </div>
 
-<!-- Initialize medium-zoom for images in blog content -->
-<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    mediumZoom('img', {
-      margin: 72,
-      background: '#000', // or 'rgba(0,0,0,0.8)'
-      scrollOffset: 40
-    });
-  });
-</script>
+<!-- Initialize zoom for images in blog content -->
+<style>
+  img {
+    cursor: zoom-in;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    position: relative;
+    z-index: 1;
+  }
+
+  img:active {
+    transform: scale(2);
+    cursor: zoom-out;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.8);
+  }
+</style>
