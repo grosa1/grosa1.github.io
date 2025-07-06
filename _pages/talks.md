@@ -15,74 +15,42 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
-<!-- Table styling -->
-<style>
-/* General styling for the page body to improve typography */
-body {
-  line-height: 1.6;
-  padding: 2em;
-}
+- Nov 27, 2024. **Introduction to AI Agents: Basic concepts and examples**  
+  _Reply, webinair (internal) - Remote_
 
-/* Main container for the table */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 2em;
-  font-size: 0.95rem;
-}
+- Nov 07, 2024. **Build your first AI Agent for SDLC: Labcamp**  
+  _Reply, workshop (internal) - Milan, Italy_
 
-/* Table header styling */
-th {
-  background-color: #f8f9fa;
-  border-bottom: 2px solid #dee2e6;
-  padding: 12px 15px;
-  text-align: left;
-  font-weight: 600;
-  color: #495057;
-}
+- Oct 24, 2024. **Automatizzare la documentazione di codice legacy con IA Generativa**  
+  _[ITOUG Tech Day 2024](https://itoug.it/itoug-tech-day-milano-2024/) - Milan, Italy._
+  \[[slides](/files/itoug2024.pdf)\]
 
-/* Table cell styling */
-td {
-  padding: 7px;
-  border-bottom: 1px solid #e9ecef;
-  vertical-align: middle;
-}
+- Oct 23, 2024. **Introduction to Generative AI**  
+  _Galdus formazione, seminar - Milan, Italy_
 
-/* Alternating row colors for readability */
-tbody tr:nth-child(odd) {
-  background-color: #fdfdfd;
-}
+- Sep 21, 2024. **A practical introduction to Generative AI**  
+  _[GDG DevFest Campobasso 2024](https://devfest.gdgcampobasso.it/) - Campobasso, Italy_
 
-/* Hover effect for rows */
-tbody tr:hover {
-  background-color: #f1f3f5;
-}
+- Sep 13, 2023. **What Quality Aspects Influence the Adoption of Docker Images?**  
+  _ASE 2023, Journal First - Luxembourg, Luxembourg._
+  \[[slides](/files/talkASE2023dockerqualitymetrics.pdf)\]
 
-/* Styling for links within the table */
-a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: 500;
-}
+- May 14, 2023. **Automatically Generating Dockerfiles via Deep-Learning: Challenges and Promises**  
+  _ICSSP 2023, Main Track - Melbourne, Australia._
+  \[[slides](/files/talkICSSP23dockergen.pdf)\]
 
-a:hover {
-  text-decoration: underline;
-}
-</style>
+- Oct 06, 2022. **Fixing Dockerfile Smells: An Empirical Study**  
+  _ICSME 2022, Registered Report - Limassol, Cyprus._
+  \[[slides](/files/talkICSME22fixingdockerfilesmell.pdf)\]
 
-| Date         | Title                                                                          | Event                                                              | Location               | Links                                                                 |
-|:-------------|:-------------------------------------------------------------------------------|:-------------------------------------------------------------------|:-----------------------|:----------------------------------------------------------------------|
-| Nov 27, 2024 | Introduction to AI Agents: Basic concepts and examples                         | Reply, webinair (internal)                                         | Remote                 |                                                                       |
-| Nov 07, 2024 | Build your first AI Agent for SDLC: Labcamp                                    | Reply, workshop (internal)                                         | Milan, Italy           |                                                                       |
-| Oct 24, 2024 | Automatizzare la documentazione di codice legacy con IA Generativa               | [ITOUG Tech Day 2024](https://itoug.it/itoug-tech-day-milano-2024/)  | Milan, Italy           | [slides](/files/itoug2024.pdf)                                    |
-| Oct 23, 2024 | Introduction to Generative AI                                                  | Galdus formazione, seminar                                        | Milan, Italy           |                                                                       |
-| Sep 21, 2024 | A practical introduction to Generative AI                                      | [GDG DevFest Campobasso 2024](https://devfest.gdgcampobasso.it/)     | Campobasso, Italy      |                                                                       |
-| Sep 13, 2023 | What Quality Aspects Influence the Adoption of Docker Images?                  | ASE 2023, Journal First                                            | Luxembourg, Luxembourg | [slides](/files/talkASE2023dockerqualitymetrics.pdf)                   |
-| May 14, 2023 | Automatically Generating Dockerfiles via Deep-Learning: Challenges and Promises | ICSSP 2023, Main Track                                             | Melbourne, Australia   | [slides](/files/talkICSSP23dockergen.pdf)                             |
-| Oct 06, 2022 | Fixing Dockerfile Smells: An Empirical Study                                   | ICSME 2022, Registered Report                                      | Limassol, Cyprus       | [slides](/files/talkICSME22fixingdockerfilesmell.pdf)                 |
-| Oct 04, 2022 | Assessing and Improving the Quality of Docker Artifacts                        | ICSME 2022, Doctoral Symposium                                     | Limassol, Cyprus       | [slides](/files/talkICSME22doctoralsymposium.pdf)                     |
-| Feb 11, 2022 | A Robust Approach for a Real-time Accurate Screening of ST Segment Anomalies     | HEALTHINF 2022                                                     | Remote                 | [slides](/files/talkHEALTHINF2022stsloping.pdf)                       |
-| Dec 12, 2021 | Tether: A Study on Bubble-Networks                                               | University of Molise, seminar                                      | Pesche, Italy          | [slides](/files/talkFrontiersTether.pdf)                              |
-| May 26, 2021 | Evaluating SZZ Implementations Through a Developer-informed Oracle             | ICSE 2021, Main Track                                              | Remote                 | [slides](/files/talkICSE2021szz.pdf)                                  |
-| Feb 11, 2021 | Automatic Real-time Beat-to-beat Detection of Arrhythmia Conditions              | HEALTHINF 2021                                                     | Remote                 | [slides](/files/talkHEALTHINF2021arrhythmia.pdf)                      |
+- Oct 04, 2022. **Assessing and Improving the Quality of Docker Artifacts**  
+  _ICSME 2022, Doctoral Symposium - Limassol, Cyprus._
+  \[[slides](/files/talkICSME22doctoralsymposium.pdf)\]
 
+- Feb 11, 2022. **A Robust Approach for a Real-time Accurate Screening of ST Segment Anomalies**  
+  _HEALTHINF 2022 - Remote._
+  \[[slides](/files/talkHEALTHINF2022stsloping.pdf)\]
+
+- Dec 12, 2021. **Tether: A Study on Bubble-Networks**  
+  _University of Molise, seminar - Pesche, Italy._
+  \[[slides](/files/talkFrontiersTether.pdf)\]

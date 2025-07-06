@@ -11,71 +11,31 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-## Courses
+## Teaching Experience
 
-<style>
-/* General styling for the page body to improve typography */
-body {
-  line-height: 1.6;
-  padding: 2em;
-}
+* **Hands-On Machine Learning**, Computer Science program, University of Molise  
+_Introduction to Python and applied Machine Learning (*e.g.*, defect prediction, text classification, image classification). Course materials can be found [here](https://github.com/grosa1/hands-on-ml-tutorials)._  
+**Role:** Teaching assistant and lecturer (**2020, 2021, 2022, 2023**)
 
-/* Main container for the table */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-top: 2em;
-  font-size: 0.95rem;
-}
+* **Automated Software Delivery**, Computer Science program, University of Molise  
+_CI/CD pipelines and Docker._  
+**Role:** Teaching assistant and lecturer (**2020, 2021**)
 
-/* Table header styling */
-th {
-  background-color: #f8f9fa;
-  border-bottom: 2px solid #dee2e6;
-  padding: 12px 15px;
-  text-align: left;
-  font-weight: 600;
-  color: #495057;
-}
+* **Algorithms and data structures: Supplementary exercises**, Computer Science program, University of Molise  
+_Supplementary exercises solved with the C programming language._  
+**Role:** Lecturer (**2021**)
 
-/* Table cell styling */
-td {
-  padding: 6px;
-  border-bottom: 1px solid #e9ecef;
-  vertical-align: top; /* Use 'top' for better alignment with multi-line descriptions */
-}
+* **Programming 1**, Computer Science program, University of Molise  
+_C programming exercises._  
+**Role:** Teaching assistant (**2021**)
 
-/* Alternating row colors for readability */
-tbody tr:nth-child(odd) {
-  background-color: #fdfdfd;
-}
+* **Semantic intelligence for cybersecurity**, Software Systems Security program, University of Molise  
+_Presentation of the research paper "Tether: A Study on Bubble-Networks."_  
+**Role:** Seminar (**2021**)
 
-/* Hover effect for rows */
-tbody tr:hover {
-  background-color: #f1f3f5;
-}
-
-/* Styling for links within the table */
-a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-</style>
-
-| Course                                                                 | Description                                                                                                                                                             | Role                                                       |
-|:-----------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
-| Hands-On Machine Learning, Computer Science program, University of Molise      | Introduction to Python and applied Machine Learning (*e.g.*, defect prediction, text classification, image classification). Course materials can be found [here](https://github.com/grosa1/hands-on-ml-tutorials). | Teaching assistant and lecturer (**2020, 2021, 2022, 2023**) |
-| Automated Software Delivery, Computer Science program, University of Molise    | CI/CD pipelines and Docker                                                                                                                              | Teaching assistant and lecturer (**2020, 2021**)               |
-| Algorithms and data structures: Supplementary exercises, Computer Science program, University of Molise | Supplementary exercises solved with the C programming language                                                                                          | Lecturer (**2021**)                                            |
-| Programming 1, Computer Science program, University of Molise                  | C programming exercises                                                                                                                                 | Teaching assistant (**2021**)                                  |
-| Semantic intelligence for cybersecurity, Software Systems Security program, University of Molise | Presentation of the research paper "Tether: A Study on Bubble-Networks"                                                                                 | Seminar (**2021**)                                             |
-| C programming: Supplementary exercises, Computer Science program, University of Molise     | C programming exercises                                                                                                                                 | Lecturer (**2021, 2022**)                                      |
-
+* **C programming: Supplementary exercises**, Computer Science program, University of Molise  
+_C programming exercises._  
+**Role:** Lecturer (**2021, 2022**)
 
 ## Program Commitee member
 
