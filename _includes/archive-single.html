@@ -82,3 +82,15 @@
 
   </article>
 </div>
+
+<!-- Initialize medium-zoom for images in blog content -->
+<script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    mediumZoom('img', {
+      margin: 72,
+      background: '#000', // or 'rgba(0,0,0,0.8)'
+      scrollOffset: 40
+    });
+  });
+</script>
