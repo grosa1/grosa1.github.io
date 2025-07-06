@@ -11,7 +11,7 @@ author_profile: true
   </div>
 {% endif %} -->
 
-{% include base_path %}
+<!-- {% include base_path %} -->
 
 <!-- New style rendering if publication categories are defined -->
 <!-- {% if site.publication_category %}

@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<!-- {% include base_path %} -->
 
 <!-- {% for post in site.teaching reversed %}
   {% include archive-single.html %}
@@ -40,7 +40,7 @@ th {
 
 /* Table cell styling */
 td {
-  padding: 15px;
+  padding: 6px;
   border-bottom: 1px solid #e9ecef;
   vertical-align: top; /* Use 'top' for better alignment with multi-line descriptions */
 }

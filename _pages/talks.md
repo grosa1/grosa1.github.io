@@ -43,7 +43,7 @@ th {
 
 /* Table cell styling */
 td {
-  padding: 15px;
+  padding: 7px;
   border-bottom: 1px solid #e9ecef;
   vertical-align: middle;
 }
