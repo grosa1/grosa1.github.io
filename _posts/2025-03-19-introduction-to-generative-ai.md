@@ -4,8 +4,8 @@ date: 2025-03-19
 permalink: /posts/2025/introduction-to-oci-generative-ai
 tags:
   - oracle-generative-ai
-  - oci 
   - python
+  - english
 excerpt: 'This article aims to provide a comprehensive guide for beginners to get started with Oracle Cloud Infrastructure (OCI) Generative AI service. This article covers everything from creating an account to...'
 ---
 
