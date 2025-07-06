@@ -65,7 +65,6 @@ RAG is a powerful approach that combines the strengths of retrieval-based and ge
 
 Simply, the RAG approach is composed of a source knowledge base, which can be a set of documents, a database, or an API, and a Large Language Model (LLM) that is used to generate the responses based on the retrieved information. 
 The key idea behind RAG is to leverage the in-context learning capabilities of LLMs to generate responses requiring information that is not present in the training knowledge of the model. 
-This also provides a source reference of the information used to generate the response, which can lead to a more accurate and reliable answer that can be validated by the user.
 
 The RAG approach is particularly useful in scenarios where the information is constantly changing or evolving, such as in the case of scientific papers, news articles, or technical documentation. 
 By using RAG, it is possible to create AI agents that have up-to-date information based on the latest data available in the source knowledge base, without the need to retrain the model.
@@ -123,14 +122,15 @@ The latter is especially important when handling sensitive data, as it helps ens
 ![chat-example](/images/posts/post2/chat-example.png)
 <i><center>
 Figure 4. Chat example. Source: <a href="https://www.oracle.com/cloud/" target="_blank" rel="noopener noreferrer">Oracle Cloud Infrastructure</a>
-</center></i>
+</center></i>  
+
 Now everything is ready to test our agent! From the _Generative AI Agents > Chat_ tab, you can interact with the agent using the chat playground interface.  
 Our agent is now an expert on Dockerfile smells, thanks to the knowledge base we created, so we can ask questions related to that topic.  
 Before starting, make sure that the agent and the endpoint created in the previous steps are selected in the top left corner.
 
 The chat playground does not require any programming knowledge, as it provides a user-friendly interface for interacting with the agent. For advanced integrations or customizations, the platform also provides an API that can be used to interact with the agent programmatically via the OCI SDKs or directly through HTTP requests.
 
-By default, our agent uses English for interactions, matching the language of the knowledge base. It is recommended to keep the knowledge base in a language in which the agent's LLM is proficient (such as English) to ensure more accurate and reliable responses.
+Our agent is using English for interactions, matching the language of the welcome message and the user input. It is recommended to keep the knowledge base in a language in which the agent's LLM is proficient (such as English) to ensure more accurate and reliable responses.
 To change the response language, you can instruct the agent to reply in Italian and to keep the answer brief and concise (see Figure 4). The agent will then retrieve relevant information from the knowledge base and generate a response translated in Italian.
 
 Continuing with the example, we ask the agent to provide a list of the most common Dockerfile smells, each accompanied by a brief description. The agent retrieves the relevant information from the knowledge base and generates a response that includes this list. Additionally, the platform allows us to view a log of the interactions, detailing the sources used. This feature is useful for understanding how the agent arrived at its answer and for verifying the accuracy of the information provided (see Figure 4).

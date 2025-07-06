@@ -51,7 +51,7 @@ _Empirical Software Engineering - EMSE_ 2025
 * J9. **Fixing Dockerfile Smells: An Empirical Study**  
 <u>Giovanni Rosa</u>, Federico Zappone, Simone Scalabrino, and Rocco Oliveto  
 _Empirical Software Engineering - EMSE_ 2024  
-\[[PDF](https://link.springer.com/article/10.1007/s10664-024-10471-7}) \| 
+\[[PDF](https://link.springer.com/article/10.1007/s10664-024-10471-7) \| 
 [Slides](/files/talkICSME22fixingdockerfilesmell.pdf)\]
 
 * J8. **Help Them Understand: Testing and Improving Voice User Interfaces**  
