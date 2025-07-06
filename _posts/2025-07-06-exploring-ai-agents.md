@@ -137,9 +137,7 @@ Continuing with the example, we ask the agent to provide a list of the most comm
 
 ## 5\. Conclusion
 
-In this post, we explored how to create a RAG agent using the OCI Generative AI Agents Platform. We began by defining AI agents and their applications across various domains. Next, we introduced the RAG approach, which combines retrieval-based and generation-based methods to deliver more accurate and contextually relevant responses.
-
-We then walked through the steps to build a RAG agent on the OCI platform, from creating a storage bucket for the knowledge base to configuring the agent endpoint. The resulting agent was able to answer questions about Dockerfile smells using research papers as its knowledge source, all without writing any line of code.
+In this post, we explored how to create a RAG agent using the OCI Generative AI Agents Platform. We began by defining AI agents and their applications across various domains. Next, we introduced the RAG approach, which combines retrieval-based and generation-based methods to deliver more accurate and contextually relevant responses. All without writing any line of code.
 
 As the OCI Generative AI Agents Platform continues to evolve, some content in this post may become outdated. However, the goal is to provide a basic example of creating an agent, which can be further extended and customized for specific needs.  
 For the latest updates and features of the OCI Generative AI Agents Platform, always consult the [official documentation](https://docs.oracle.com/en-us/iaas/Content/generative-ai-agents/overview.htm) or seek professional support for advanced use cases.
@@ -151,7 +149,7 @@ For the latest updates and features of the OCI Generative AI Agents Platform, al
 
 -----------------------------------
 
-\**Please note: All screenshots are the property of Oracle and are used in accordance with their copyright guidelines.*
+\**Please note: All screenshots are intellectual property of Oracle and used in accordance with their copyright guidelines.*
 
 <!-- ### Limitazioni e Sfide di rag
 
