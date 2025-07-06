@@ -25,8 +25,9 @@ In this context, we define an _"AI agent"_ as an artificial intelligence system 
 * **Interaction protocol**: How the agent communicates with users or other systems, such as through a chat interface, event-based models, or API calls.
 * **Guardrails**: Rules that restrict the agent's behavior to ensure it operates safely and within defined limits, particularly important for security and preventing harmful actions.
 * **Orchestratior**: Coordinates the agent's components to ensure they work together effectively, often involving a Q&A system that manages user interactions and data retrieval. Usually, that is implemented using frameworks like _LangChain_ or _LlamaIndex_.
-* 
-### 2. AI Agents on Oracle Cloud Infrastructure
+
+
+## 2\. AI Agents on Oracle Cloud Infrastructure
 
 ![genai-agents-home](/images/posts/post2/genai-agents-home.png)
 <i><center>
@@ -50,7 +51,7 @@ Key features of the OCI Generative AI Agents Platform include:
 
 Additional information on the OCI Generative AI Agents Platform can be found in the [official documentation](https://docs.oracle.com/en-us/iaas/Content/generative-ai-agents/overview.htm) and the [Oracle AI & Data Science Blog](https://blogs.oracle.com/ai-and-datascience/post/ga-of-oci-gen-ai-agent-platform).
     
-## 3. Building a Basic RAG Agent with the OCI Generative AI Agents Platform
+## 3\. Building a Basic RAG Agent with the OCI Generative AI Agents Platform
 
 The goal of this article is to build a simple Retrieval Augmented Generation (RAG) chat assistant using the OCI Generative AI Agents Platform. The assistant is designed to answer questions about bad writing patterns in Docker files, namely Dockerfile smells, using research papers as source of knowledge. 
 The data is uploaded to an Oracle storage bucket, and the OCI platform handles the rest (uploading, parsing, ingestion, agent logic, and deployment) without requiring writing any line of code.
