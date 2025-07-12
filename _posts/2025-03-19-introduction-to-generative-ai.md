@@ -30,9 +30,9 @@ Before getting hands-on with the code, there are several preliminary steps to fo
 <i><center>Figure 1. OCI Generative AI Playground. Source: <a href="https://www.oracle.com/cloud/" target="_blank" rel="noopener noreferrer">Oracle Cloud Infrastructure</a></center></i>
 
 3\. **Generating an API key**: After creating your account, you'll need to create an API key that is mandatory for authentication with the OCI Generative AI service. To create an API key:
-  - Go to your profile settings, find *Resources > API keys* and click on the *Add Public Key* button.
-  - Then, check on *Generate API key pair* and download the private and public key files (*e.g.,* default `~/.oci` directory).
-  - When finished, click on the *Add* button.
+  - Go to your profile settings, find "Tokens and keys > API keys" and click on the "Add API Key" button.
+  - Then, check on "Generate API key pair" and download the private and public key files (*e.g.,* default `~/.oci` directory).
+  - When finished, click on the "Add" button.
         
 The last step is to create a configuration file that contains the necessary information to authenticate with the OCI services. An example of the configuration file is prompted after the API key creation. As suggested, store the configuration file in the default location `~/.oci/config`. Be sure to set the correct path of the previously downloaded private key in the configuration file.
     
