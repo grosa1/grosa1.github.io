@@ -22,14 +22,14 @@ author_profile: true
   _Reply, workshop (internal) - Milan, Italy_  
 
 - Oct 24, 2024. **Automatizzare la documentazione di codice legacy con IA Generativa**  
-  _[ITOUG Tech Day 2024](https://itoug.it/itoug-tech-day-milano-2024/) - Milan, Italy._  
+  _[ITOUG Tech Day 2024](https://itoug.it/itoug-tech-day-milano-2024/) - Oracle Headquarters, Milan, Italy._  
   \[[slides](/files/itoug2024.pdf)\]
 
 - Oct 23, 2024. **Introduction to Generative AI**  
   _Galdus formazione, seminar - Milan, Italy_
 
 - Sep 21, 2024. **A practical introduction to Generative AI**  
-  _[GDG DevFest Campobasso 2024](https://devfest.gdgcampobasso.it/) - Campobasso, Italy_
+  _[GDG DevFest Campobasso 2024](https://devfest.gdgcampobasso.it/) - Samnium Innovation Hub, Campobasso, Italy_
 
 - Sep 13, 2023. **What Quality Aspects Influence the Adoption of Docker Images?**  
   _ASE 2023, Journal First - Luxembourg, Luxembourg._  
