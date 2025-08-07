@@ -38,7 +38,7 @@ author_profile: true
 
 * J11. **Mining and Measuring the Impact of Change Patterns for Improving the Size and Build Time of Docker Images**
 <u>Giovanni Rosa</u>, Emanuela Guglielmi, Mattia Iannone, Simone Scalabrino, and Rocco Oliveto  
-_Empirical Software Engineering - EMSE_ 2025
+_Empirical Software Engineering - EMSE_ 2025  
 \[[PDF](/files/EMSE2025MiningAndMeasuring.pdf)\]
 
 * J10. **Why and how developers maintain smart contracts**  
