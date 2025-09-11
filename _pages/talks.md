@@ -15,6 +15,11 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
+- Sep 01, 2025. **Test-driven development with the help of
+generative AI**  
+  _Universidad de Extremadura, workshop - Cáceres, Spain_
+  \[[resources](https://gitlab.com/tdd-workshop/tdd-for-code-generation-lab-sept-25)\] 
+
 - Nov 27, 2024. **Introduction to AI Agents: Basic concepts and examples**  
   _Reply, webinair (internal) - Remote_  
 
