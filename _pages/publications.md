@@ -34,7 +34,31 @@ author_profile: true
   {% endfor %}
 {% endif %} -->
 
+## 2026
+
+* RR2. **Understanding Specification-Driven Code Generation with LLMs: An Empirical Study Design \[Registered Report\]**    
+<u>Giovanni Rosa</u>, David Moreno-Lumbreras, Gregorio Robles and Jesus M. Gonzalez-Barahona  
+_SANER_ 2026 (Registered Report) - _To appear_
+<!-- \[[PDF](/files/benevol2025tddcodegen.pdf) \|
+[Slides](/files/talkBENEVOL25.pdf) \|
+[Code](https://github.com/grosa1/AlphaCodiumV2)\] -->
+
+* C14. **Not Only for Developers: Exploring Plugin Maintenance for Knowledge-Centric Communities**  
+<u>Giovanni Rosa</u> David Moreno-Lumbreras and Raula Gaikovina Kula  
+_SANER_ 2026 (ERA Track) - _To appear_  
+<!-- \[[PDF](/files/benevol2025tddcodegen.pdf) \|
+[Slides](/files/talkBENEVOL25.pdf) \|
+[Code](https://github.com/grosa1/AlphaCodiumV2)\] -->
+
 ## 2025
+
+* C13. **Evaluating Test-Driven Code Generation: A Replication
+Study**  
+<u>Giovanni Rosa</u> and Jesus M. Gonzalez-Barahona  
+_BENEVOL_ 2025  
+\[[PDF](/files/benevol2025tddcodegen.pdf) \|
+[Slides](/files/talkBENEVOL25.pdf) \|
+[Code](https://github.com/grosa1/AlphaCodiumV2)\]
 
 * J11. **Mining and Measuring the Impact of Change Patterns for Improving the Size and Build Time of Docker Images**
 <u>Giovanni Rosa</u>, Emanuela Guglielmi, Mattia Iannone, Simone Scalabrino, and Rocco Oliveto  
@@ -60,7 +84,7 @@ Emanuela Guglielmi, <u>Giovanni Rosa</u>, Simone Scalabrino, Gabriele Bavota, an
 _ACM Transactions on Software Engineering and Methodology_ 2024  
 \[[PDF](/files/guglielmi2024helpthem.pdf)\]
 
-* C14. **Not all Dockerfile Smells are the Same: An Empirical Evaluation of Hadolint Writing Practices by Experts**  
+* C12. **Not all Dockerfile Smells are the Same: An Empirical Evaluation of Hadolint Writing Practices by Experts**  
 <u>Giovanni Rosa</u>, Simone Scalabrino, Gregorio Robles, and Rocco Oliveto  
 _MSR_ 2024  
 \[[PDF](/files/rosa2024notallthesmells.pdf) \|
@@ -86,7 +110,7 @@ _TOSEM_ 2023
 [Code](https://doi.org/10.6084/m9.figshare.20131727) \|
 [Slides](/files/talkASE2023dockerqualitymetrics.pdf)\]
 
-* C13. **Automatically Generating Dockerfiles via Deep-Learning: Challenges and Promises**  
+* C11. **Automatically Generating Dockerfiles via Deep-Learning: Challenges and Promises**  
 <u>Giovanni Rosa</u>, Antonio Mastropaolo, Simone Scalabrino, Gabriele Bavota, and Rocco Oliveto  
 _IEEE ICSSP_ 2023  
 \[[PDF](https://arxiv.org/pdf/2303.15990.pdf) \| 
@@ -105,15 +129,15 @@ Valentina Piantadosi, <u>Giovanni Rosa</u>, Davide Placella, Simone Scalabrino, 
 _Software: Practice and Experience_ 2022  
 \[[PDF](/files/piantadosi2022detecting.pdf)\]
 
-* C12. **Fixing Dockerfile Smells: An Empirical Study (Registered Report)**  
+* RR1. **Fixing Dockerfile Smells: An Empirical Study \[Registered Report\]**  
 <u>Giovanni Rosa</u>, Simone Scalabrino, and Rocco Oliveto  
-_ICSME_ 2022  
+_ICSME_ 2022 (Registered Report)  
 \[[PDF](https://arxiv.org/pdf/2208.09097.pdf) \| 
 [Slides](/files/talkICSME22fixingdockerfilesmell.pdf)\]
 
-* C11. **Assessing and Improving the Quality of Docker Artifacts**  
+* S1. **Assessing and Improving the Quality of Docker Artifacts**  
 <u>Giovanni Rosa</u>, Simone Scalabrino, and Rocco Oliveto  
-_ICSME_ 2022  
+_ICSME_ 2022 (Doctoral Symposium)  
 \[[PDF](/files/rosa2022assessing.pdf) \| 
 [Poster](/files/PosterICSME22DoctoralSymposium.pdf) \|
 [Slides](/files/talkICSME22doctoralsymposium.pdf)\]
