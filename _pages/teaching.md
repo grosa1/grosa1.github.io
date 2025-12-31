@@ -40,7 +40,9 @@ _C programming exercises._
 ## Program Commitee member
 
 * PC Member, SANER 2024
-* Shadow PC member, MSR 2023
+* Shadow PC Member, MSR 2023
+* Junior PC Member, MSR 2026
+* Tool demo track and Industry track PC member, ICSME 2026
 
 
 ## Reviewer for research papers
