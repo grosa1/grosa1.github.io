@@ -15,8 +15,13 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
-- Sep 01, 2025. **Test-driven development with the help of
-generative AI**  
+- Nov 18, 2025. **Evaluating Test-Driven Code Generation: A Replication Study**  
+_[BENEVOL 2025](https://benevol2025.github.io/) - Enschede, The Netherlands._ \[[PDF](/files/talkBENEVOL25.pdf)\].
+
+- Oct 30, 2025. **Navigating a Changing Landscape: Lessons from Replicating TDD for LLMs" (Lightning talk)**  
+_MadSESE 2025 - Madrid, Spain_
+
+- Sep 01, 2025. **Test-driven development with the help of Generative AI**  
   _[LLMA4SE 2025](https://i3lab.unex.es/summer-school/), workshop - Cáceres, Spain._
   \[[Resources](https://gitlab.com/tdd-workshop/tdd-for-code-generation-lab-sept-25)\].
 
