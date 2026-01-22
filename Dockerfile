@@ -24,8 +24,6 @@ USER vscode
 
 # Copy Gemfile and Gemfile.lock into the container (necessary for `bundle install`)
 COPY Gemfile ./
-# Copy Gemfile.lock if it exists
-COPY Gemfile.lock ./ || true
 
 # Install bundler and dependencies
 RUN gem install connection_pool:2.5.0
