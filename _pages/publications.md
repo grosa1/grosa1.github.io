@@ -38,17 +38,13 @@ author_profile: true
 
 * RR2. **Understanding Specification-Driven Code Generation with LLMs: An Empirical Study Design \[Registered Report\]**    
 <u>Giovanni Rosa</u>, David Moreno-Lumbreras, Gregorio Robles and Jesus M. Gonzalez-Barahona  
-_SANER_ 2026 (Registered Report) - _To appear_
-<!-- \[[PDF](/files/benevol2025tddcodegen.pdf) \|
-[Slides](/files/talkBENEVOL25.pdf) \|
-[Code](https://github.com/grosa1/AlphaCodiumV2)\] -->
+_SANER_ 2026 (Registered Report)  
+\[[PDF](https://arxiv.org/pdf/2601.03878.pdf)\]
 
 * C14. **Not Only for Developers: Exploring Plugin Maintenance for Knowledge-Centric Communities**  
 <u>Giovanni Rosa</u> David Moreno-Lumbreras and Raula Gaikovina Kula  
-_SANER_ 2026 (ERA Track) - _To appear_  
-<!-- \[[PDF](/files/benevol2025tddcodegen.pdf) \|
-[Slides](/files/talkBENEVOL25.pdf) \|
-[Code](https://github.com/grosa1/AlphaCodiumV2)\] -->
+_SANER_ 2026 (ERA Track)  
+\[[PDF](/files/saner-era2026pluginsobsidian.pdf)\]
 
 ## 2025
 

@@ -43,11 +43,13 @@ _C programming exercises._
 * Shadow PC Member, MSR 2023
 * Junior PC Member, MSR 2026
 * Tool demo track and Industry track PC member, ICSME 2026
+* PC Member, ODAI-LIB Challenge 2026 (FSE-AIWare 2026 Competition Track)
+* PC Member, NLBSE 2026 (co-located with ICSE 2026)
+* PC Member, ACQUIRE 2026 (co-located with EDCC 2026)
 
 
 ## Reviewer for research papers
 
-* IEEE Transactions on Software Engineering (TSE)
 * ACM Transactions on Software Engineering and Methodology (TOSEM)
 * Empirical Software Engineering (EMSE)
 * Journal of Systems and Software (JSS)
