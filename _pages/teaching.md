@@ -50,6 +50,7 @@ _C programming exercises._
 
 ## Reviewer for research papers
 
+* IEEE Transactions on Software Engineering (TSE)
 * ACM Transactions on Software Engineering and Methodology (TOSEM)
 * Empirical Software Engineering (EMSE)
 * Journal of Systems and Software (JSS)
