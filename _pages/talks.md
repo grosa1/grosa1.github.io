@@ -15,6 +15,14 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
+- Mar 19, 2026. **Understanding Specification-Driven Code Generation with LLMs: An Empirical Study Design**  
+_[SANER 2026](https://conf.researchr.org/details/saner-2026/saner-2026-registered-report-track-/5/Understanding-Specification-Driven-Code-Generation-with-LLMs-An-Empirical-Study-Desi) - Limassol, Cyprus (Remote)._  
+\[[PDF](https://speakerdeck.com/grosa1/understanding-specification-driven-code-generation-with-llms-an-empirical-study-design)\].
+
+- Feb 26, 2026. **An introduction to Spec-Driven Development**  
+_[SoftDev seminars](https://softdev.codeberg.page/#seminars), Universidad Rey Juan Carlos - Madrid, Spain._  
+\[[PDF](https://softdev.codeberg.page/seminars/2026-02-26/20260226_sdd-seminar.pdf)\].
+
 - Nov 18, 2025. **Evaluating Test-Driven Code Generation: A Replication Study**  
 _[BENEVOL 2025](https://benevol2025.github.io/) - Enschede, The Netherlands._ \[[PDF](/files/talkBENEVOL25.pdf)\].
 

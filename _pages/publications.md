@@ -39,7 +39,8 @@ author_profile: true
 * RR2. **Understanding Specification-Driven Code Generation with LLMs: An Empirical Study Design \[Registered Report\]**    
 <u>Giovanni Rosa</u>, David Moreno-Lumbreras, Gregorio Robles and Jesus M. Gonzalez-Barahona  
 _SANER_ 2026 (Registered Report)  
-\[[PDF](https://arxiv.org/pdf/2601.03878.pdf)\]
+\[[PDF](https://arxiv.org/pdf/2601.03878.pdf) \|
+[Slides](https://speakerdeck.com/grosa1/understanding-specification-driven-code-generation-with-llms-an-empirical-study-design)\]
 
 * C14. **Not Only for Developers: Exploring Plugin Maintenance for Knowledge-Centric Communities**  
 <u>Giovanni Rosa</u> David Moreno-Lumbreras and Raula Gaikovina Kula  

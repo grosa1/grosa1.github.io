@@ -58,7 +58,7 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 **Postdoctoral Researcher • AI Engineer • Spain**
 
 <!-- **Short Bio.**  -->
-Giovanni Rosa is a Postdoctoral Researcher at [URJC](https://www.urjc.es/), where he is part of the SoftDev research group, specializing in AI for Code Generation and Software Engineering. 
+Giovanni Rosa is a Postdoctoral Researcher at [URJC](https://www.urjc.es/), where he is part of the [SoftDev research group](https://softdev.codeberg.page), specializing in AI for Software Engineering. 
 Previously, he worked in industry as an R&D AI Engineer designing and developing Machine Learning and Generative AI-based solutions. His work focused on business-critical use cases across the Software Development Lifecycle (SDLC), IT Operations, and Knowledge-Augmented AI Systems.
 
 In 2024, Giovanni successfully defended his PhD dissertation, which focused on the assessment and improvement of the quality aspects of Dockerfiles and Docker images, leveraging machine learning and NLP techniques.
