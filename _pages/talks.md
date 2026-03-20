@@ -15,6 +15,10 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
+- Mar 20, 2026. **Not Only for Developers: Exploring Plugin Maintenance for Knowledge-Centric Communities**  
+  _[SANER 2026](https://conf.researchr.org/details/saner-2026/saner-2026-early-research-achievement-era--track/9/Not-Only-for-Developers-Exploring-Plugin-Maintenance-for-Knowledge-Centric-Communit) - Limassol, Cyprus (Remote)._ 
+  \[[PDF](https://speakerdeck.com/grosa1/not-only-for-developers-exploring-plugin-maintenance-for-knowledge-centric-communities)\].
+
 - Mar 19, 2026. **Understanding Specification-Driven Code Generation with LLMs: An Empirical Study Design**  
   _[SANER 2026](https://conf.researchr.org/details/saner-2026/saner-2026-registered-report-track-/5/Understanding-Specification-Driven-Code-Generation-with-LLMs-An-Empirical-Study-Desi) - Limassol, Cyprus (Remote)._ 
   \[[PDF](https://speakerdeck.com/grosa1/understanding-specification-driven-code-generation-with-llms-an-empirical-study-design)\].

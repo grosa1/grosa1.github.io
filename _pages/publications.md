@@ -45,7 +45,8 @@ _SANER_ 2026 (Registered Report)
 * C14. **Not Only for Developers: Exploring Plugin Maintenance for Knowledge-Centric Communities**  
 <u>Giovanni Rosa</u> David Moreno-Lumbreras and Raula Gaikovina Kula  
 _SANER_ 2026 (ERA Track)  
-\[[PDF](/files/saner-era2026pluginsobsidian.pdf)\]
+\[[PDF](/files/saner-era2026pluginsobsidian.pdf) \|
+[Slides](https://speakerdeck.com/grosa1/not-only-for-developers-exploring-plugin-maintenance-for-knowledge-centric-communities)\]
 
 ## 2025
 
