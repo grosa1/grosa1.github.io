@@ -15,6 +15,14 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
+- Jul 06, 2026. **What Works and What Fails: Lessons from Benchmarking Local Coding LLMs**  
+  _[seLIA: I Jornada sobre Software Libre e Inteligencia Artificial Abierta](https://selia.codeberg.page/programa.html) - Universidad Rey Juan Carlos, Fuenalbrada, Spain._ 
+  \[[PDF](https://speakerdeck.com/grosa1/what-works-and-what-fails-lessons-from-benchmarking-local-coding-llms)\].
+
+- Jun 16, 2026. **Towards Test-Driven Synthesis of Behavioral Programs**  
+  _[AI4SE - Jornadas Sistedes 2026](https://sistedes.lucentia.es/ai4se/) - Alicante, Spain._ 
+  \[[PDF](https://speakerdeck.com/grosa1/towards-test-driven-synthesis-of-behavioral-programs)\].
+
 - Mar 20, 2026. **Not Only for Developers: Exploring Plugin Maintenance for Knowledge-Centric Communities**  
   _[SANER 2026](https://conf.researchr.org/details/saner-2026/saner-2026-early-research-achievement-era--track/9/Not-Only-for-Developers-Exploring-Plugin-Maintenance-for-Knowledge-Centric-Communit) - Limassol, Cyprus (Remote)._ 
   \[[PDF](https://speakerdeck.com/grosa1/not-only-for-developers-exploring-plugin-maintenance-for-knowledge-centric-communities)\].
