@@ -42,10 +42,12 @@ _C programming exercises._
 * PC Member, SANER 2024
 * Shadow PC Member, MSR 2023
 * Junior PC Member, MSR 2026
-* Tool demo track and Industry track PC member, ICSME 2026
+* PC member, Tool demo track and Industry track, ICSME 2026
 * PC Member, ODAI-LIB Challenge 2026 (FSE-AIWare 2026 Competition Track)
 * PC Member, NLBSE 2026 (co-located with ICSE 2026)
 * PC Member, ACQUIRE 2026 (co-located with EDCC 2026)
+* PC Member, post-proceedings, BENEVOL 2025
+* PC Member, VISSOFT 2026 (co-located with ICSME 2026)
 
 
 ## Reviewer for research papers
@@ -59,3 +61,8 @@ _C programming exercises._
 * Science of Computer Programming (SCICO)
 * SoftwareX Journal
 
+
+## Organizing & chairing
+
+* Session Chair and Organization Support, seLIA 2026 (Fuenlabrada, Spain)
+* Local Organization Chair, SIESTA 2026 (Madrid, Spain)
