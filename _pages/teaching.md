@@ -62,7 +62,8 @@ _C programming exercises._
 * SoftwareX Journal
 
 
-## Organizing & chairing
+## Organizing & chairing activities
 
+* Session Chair, Jornadas Sistedes 2026 (Alicante, Spain)
 * Session Chair and Organization Support, seLIA 2026 (Fuenlabrada, Spain)
 * Local Organization Chair, SIESTA 2026 (Madrid, Spain)
