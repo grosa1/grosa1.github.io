@@ -15,6 +15,11 @@ author_profile: true
   {% include archive-single-talk.html %}
 {% endfor %} -->
 
+
+- Sep 09, 2026. **Governing Code with Specification-Driven Development**  
+  _[LLMA4SE 2026](https://i3lab.unex.es/llma4se26/), talk - Cáceres, Spain._
+  \[[PDF](/files/LLMA4SE2026_sdd_keynote.pdf)\].
+
 - Jul 06, 2026. **What Works and What Fails: Lessons from Benchmarking Local Coding LLMs**  
   _[seLIA: I Jornada sobre Software Libre e Inteligencia Artificial Abierta](https://selia.codeberg.page/programa.html) - Universidad Rey Juan Carlos, Fuenalbrada, Spain._ 
   \[[PDF](https://speakerdeck.com/grosa1/what-works-and-what-fails-lessons-from-benchmarking-local-coding-llms)\].
