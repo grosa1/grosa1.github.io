@@ -55,20 +55,12 @@ For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
 
-**Postdoctoral Researcher • AI Engineer • Spain**
+**AI Research Engineer • Spain**
 
 <!-- **Short Bio.**  -->
-Giovanni Rosa is a Postdoctoral Researcher at [URJC](https://www.urjc.es/), where he is part of the [SoftDev research group](https://softdev.codeberg.page), specializing in AI for Software Engineering. 
-Previously, he worked in industry as an R&D AI Engineer designing and developing Machine Learning and Generative AI-based solutions. His work focused on business-critical use cases across the Software Development Lifecycle (SDLC), IT Operations, and Knowledge-Augmented AI Systems.
+Giovanni Rosa is a Research Engineer at JetBrains, working on AI for Software Engineering.
+Previously, he was a postdoctoral Researcher at [URJC](https://www.urjc.es/), specializing in AI for Software Engineering, and also had experience in industry as an R&D AI Engineer designing and developing Machine Learning and Generative AI-based solutions.
 
-In 2024, Giovanni successfully defended his PhD dissertation, which focused on the assessment and improvement of the quality aspects of Dockerfiles and Docker images, leveraging machine learning and NLP techniques.
-During his PhD, he authored over 20 research papers and presented his work at numerous international scientific conferences. Additionally, he served as a teaching assistant and co-supervised more than 15 students on their final theses.
+During his research career, he authored over 20 research papers and presented his work at numerous international scientific conferences. Additionally, he served as a teaching assistant and co-supervised more than 15 students on their final theses.
 
 **Research Interests.** AI for Software Engineering, Software Quality, Maintenance, and Evolution, Empirical Software Engineering, and Mining Software Repositories
-
-## News
-- **2025-05-28**: I've started a new position as a Postdoctoral Researcher at [Universidad Rey Juan Carlos](https://urjc.es)! I’ll be exploring the intersection of Generative AI and software engineering :tada:
-- **2024-04-30**: Dr. Giovanni Rosa Achieves the PhD Milestone! :tada::tada: I successfully defended my dissertation entitled "Assessing and Improving the Quality of Docker Artifacts"
-- **2024-2-12**: I started a new position as an R&D AI Engineer at [Reply](https://www.reply.com/)! I will be working on Generative AI-based solutions for the Software Development Lifecycle (SDLC) and IT Operations :rocket:
-- **2024-04-15**: Today we presented our paper "Not all Dockerfile Smells are the Same: An Empirical Evaluation of Hadolint Writing Practices by Experts" at MSR 2024! Slides available <a href='/assets/pdf/talkMSR2024notallthesmells.pdf'>here</a> :whale:
-- **2023-9-12**: We just presented our journal first paper "What Quality Aspects Influence the Adoption of Docker Images?" at ASE 2023! Slides available [here](https://giovannirosa.com/assets/pdf/talkASE2023dockerqualitymetrics.pdf) :boom:

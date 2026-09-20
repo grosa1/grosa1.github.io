@@ -44,7 +44,7 @@ author_profile: true
   _[BENEVOL 2025](https://benevol2025.github.io/) - Enschede, The Netherlands._
   \[[PDF](/files/talkBENEVOL25.pdf)\].
 
-- Oct 30, 2025. **Navigating a Changing Landscape: Lessons from Replicating TDD for LLMs" (Lightning talk)**  
+- Oct 30, 2025. **Navigating a Changing Landscape: Lessons from Replicating TDD for LLMs (Lightning talk)**  
 _MadSESE 2025 - Madrid, Spain_
 
 - Sep 01, 2025. **Test-driven development with the help of Generative AI**  

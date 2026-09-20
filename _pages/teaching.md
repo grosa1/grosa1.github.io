@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching and academic service"
+title: "Academic service and Teaching"
 permalink: /service/
 author_profile: true
 ---
@@ -10,32 +10,6 @@ author_profile: true
 <!-- {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %} -->
-
-## Teaching Experience
-
-* **Hands-On Machine Learning**, Computer Science program, University of Molise  
-_Introduction to Python and applied Machine Learning (*e.g.*, defect prediction, text classification, image classification). Course materials can be found [here](https://github.com/grosa1/hands-on-ml-tutorials)._  
-**Role:** Teaching assistant and lecturer (**2020, 2021, 2022, 2023**)
-
-* **Automated Software Delivery**, Computer Science program, University of Molise  
-_CI/CD pipelines and Docker._  
-**Role:** Teaching assistant and lecturer (**2020, 2021**)
-
-* **Algorithms and data structures: Supplementary exercises**, Computer Science program, University of Molise  
-_Supplementary exercises solved with the C programming language._  
-**Role:** Lecturer (**2021**)
-
-* **Programming 1**, Computer Science program, University of Molise  
-_C programming exercises._  
-**Role:** Teaching assistant (**2021**)
-
-* **Semantic intelligence for cybersecurity**, Software Systems Security program, University of Molise  
-_Presentation of the research paper "Tether: A Study on Bubble-Networks."_  
-**Role:** Seminar (**2021**)
-
-* **C programming: Supplementary exercises**, Computer Science program, University of Molise  
-_C programming exercises._  
-**Role:** Lecturer (**2021, 2022**)
 
 ## Program Commitee member
 
@@ -67,3 +41,30 @@ _C programming exercises._
 * Session Chair, Jornadas Sistedes 2026 (Alicante, Spain)
 * Session Chair and Organization Support, seLIA 2026 (Fuenlabrada, Spain)
 * Local Organization Chair, SIESTA 2026 (Madrid, Spain)
+
+
+## Teaching Experience
+
+* **Hands-On Machine Learning**, Computer Science program, University of Molise  
+_Introduction to Python and applied Machine Learning (*e.g.*, defect prediction, text classification, image classification). Course materials can be found [here](https://github.com/grosa1/hands-on-ml-tutorials)._  
+**Role:** Teaching assistant and lecturer (**2020, 2021, 2022, 2023**)
+
+* **Automated Software Delivery**, Computer Science program, University of Molise  
+_CI/CD pipelines and Docker._  
+**Role:** Teaching assistant and lecturer (**2020, 2021**)
+
+* **Algorithms and data structures: Supplementary exercises**, Computer Science program, University of Molise  
+_Supplementary exercises solved with the C programming language._  
+**Role:** Lecturer (**2021**)
+
+* **Programming 1**, Computer Science program, University of Molise  
+_C programming exercises._  
+**Role:** Teaching assistant (**2021**)
+
+* **Semantic intelligence for cybersecurity**, Software Systems Security program, University of Molise  
+_Presentation of the research paper "Tether: A Study on Bubble-Networks."_  
+**Role:** Seminar (**2021**)
+
+* **C programming: Supplementary exercises**, Computer Science program, University of Molise  
+_C programming exercises._  
+**Role:** Lecturer (**2021, 2022**)
