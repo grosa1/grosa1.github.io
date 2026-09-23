@@ -25,11 +25,11 @@ author:
   avatar           : "prof_pic.jpg"
   name             : "Giovanni Rosa, PhD"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral Researcher"
+  bio              : "Research Engineer"
   location         : "Spain"
-  employer         : "Univ. Rey Juan Carlos"
+  employer         : "JetBrains"
   uri              : # URL
-  email            : "giovanni.rosa@urjc.es" 
+  email            : "grosa23.work@gmail.com" 
 
   # Academic websites
   academia         : # URL

@@ -58,9 +58,8 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 **AI Research Engineer • Spain**
 
 <!-- **Short Bio.**  -->
-Giovanni Rosa is a Research Engineer at JetBrains, working on AI for Software Engineering.
-Previously, he was a Postdoctoral Researcher at [URJC](https://www.urjc.es/), specializing in AI for Software Engineering, and also had experience in industry as an R&D AI Engineer designing and developing Machine Learning and Generative AI-based solutions.
+Giovanni Rosa is a Research Engineer at JetBrains, working on AI for Software Engineering. Previously, he was a Postdoctoral Researcher at URJC, where he specialized in AI for Software Engineering. He also gained industry experience as an R&D AI Engineer, designing and developing solutions based on Machine Learning and Generative AI.
 
-During his research career, he authored over 20 research papers and presented his work at numerous international scientific conferences. Additionally, he served as a teaching assistant and co-supervised more than 15 students on their final theses.
+Throughout his research career, he has authored more than 20 research papers and presented his work at numerous international scientific conferences. Additionally, he has served as a teaching assistant and co-supervised more than 15 students on their final theses.
 
 **Research Interests.** AI for Software Engineering, Software Quality, Maintenance, and Evolution, Empirical Software Engineering, and Mining Software Repositories
